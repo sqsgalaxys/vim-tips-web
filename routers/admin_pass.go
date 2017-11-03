@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"code.google.com/p/go.crypto/bcrypt"
+	"github.com/tendermint/go-crypto"
 	"github.com/codegangsta/martini-contrib/render"
 	"github.com/martini-contrib/sessions"
 	"labix.org/v2/mgo"
